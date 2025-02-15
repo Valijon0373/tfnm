@@ -582,12 +582,18 @@ section.why-us {
     letter-spacing: 1px;
     color: #fff;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 #tabs p {
     color: #fff;
     font-size: 15px;
     line-height: 28px;
+    text-align: justify;
+    overflow-x: hidden;
+    overflow-y:auto;
+    /*max-height: 600px;*/
+    /*max-width: 600px;*/
 }
 
 .tabs-content {
@@ -606,7 +612,9 @@ section.why-us {
 .tabs-content img {
     width: 100%;
     overflow: hidden;
-    padding-right: 45px;
+    padding-right: 30px;
+    /*margin-top: 40px;*/
+    padding-top: 50px;
 }
 
 @media screen and (max-width: 767px) {

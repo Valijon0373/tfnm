@@ -87,4 +87,12 @@
 }
 
 
+.about{
+    overflow-x: hidden;
+    overflow-y:auto;
+    max-height: 400px;
+    max-width: 1000px;
+
+}
+
 
