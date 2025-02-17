@@ -590,10 +590,17 @@ section.why-us {
     font-size: 15px;
     line-height: 28px;
     text-align: justify;
-    overflow-x: hidden;
-    overflow-y:auto;
+    overflow: hidden;
+    transition: 0.5s;
     /*max-height: 600px;*/
     /*max-width: 600px;*/
+}
+#tabs p:hover{
+        text-align: justify;
+        overflow-x: hidden;
+        overflow-y: auto;
+        opacity: 0.9;
+        scrollbar-width: thin
 }
 
 .tabs-content {
@@ -615,6 +622,9 @@ section.why-us {
     padding-right: 30px;
     /*margin-top: 40px;*/
     padding-top: 50px;
+
+
+
 }
 
 @media screen and (max-width: 767px) {
